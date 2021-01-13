@@ -485,9 +485,8 @@ footer#contato{
     padding-left: 10px;
     border: none;
     outline: none;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
     margin-bottom: 15px;
-    border-left: 1px solid red;
     color: white;
     font-family: "fontjapan", sans-serif;
 }
@@ -495,12 +494,12 @@ footer#contato{
 .formulario textarea{
     width: 70%;
     padding-left: 10px;
+    margin-bottom: 10px;
     background-color: black;
     resize: none;
     border: none;
     outline: none;
-    border-bottom: 1px solid red;
-    border-left: 1px solid red;
+    border-bottom: 2px solid red;
     color: white;
     font-family: "fontjapan", sans-serif;
 }
@@ -510,16 +509,17 @@ footer#contato{
     text-transform: uppercase;
 }
 
-.formulario input[type=submit]{
+#button{
     cursor: pointer;
-    width: 70%;
-    height: 30px;
+    padding: 5px 50px;
     text-transform: uppercase;
-    background: linear-gradient(to top , white, red);
-    color: black;
+    /* background: linear-gradient(to top , white, grey); */
+    border: 2px solid red;
+    color: white;
     font-size: 20px;
     font-weight: bolder;
     font-family: "fontjapan1", sans-serif;
+    text-decoration: none;
     
 }
 
